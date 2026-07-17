@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Vampire Diaries</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🩸 The Vampire Diaries</h1>
+    <p>Bem-vindo a Mystic Falls</p>
+</header>
+
+<section>
+    <h2>Personagens</h2>
+
+    <div class="card">
+        <h3>Damon Salvatore</h3>
+        <p>Vampiro sarcástico, poderoso e muito carismático.</p>
+    </div>
+
+    <div class="card">
+        <h3>Stefan Salvatore</h3>
+        <p>O irmão mais calmo e protetor.</p>
+    </div>
+
+    <div class="card">
+        <h3>Elena Gilbert</h3>
+        <p>A protagonista que muda o destino de Mystic Falls.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Frase da Série</h2>
+
+    <p id="frase">
+        Clique no botão para mostrar uma frase.
+    </p>
+
+    <button onclick="novaFrase()">
+        Mostrar Frase
+    </button>
+</section>
+
+<section>
+    <h2>Quiz</h2>
+
+    <p>Qual personagem combina mais com você?</p>
+
+    <button onclick="quiz('damon')">Corajoso</button>
+    <button onclick="quiz('stefan')">Calmo</button>
+    <button onclick="quiz('elena')">Gentil</button>
+
+    <h3 id="resultado"></h3>
+</section>
+
+<footer>
+    ❤️ Fan Page The Vampire Diaries
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
